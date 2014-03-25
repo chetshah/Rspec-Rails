@@ -27,10 +27,6 @@ require 'spec_helper'
         end
 
 
-            it {should respond_to(:age)}
-            it {should respond_to(:name)}
-            it {should respond_to(:roles)}
-            it {should respond_to(:postcode)}
-        
+            it {should respond_to(:age,:name,:roles,:postcode)}
 
  end
